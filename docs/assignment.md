@@ -1,11 +1,9 @@
-<!--
 ---
 title: Kubernetes Command-Line Interface (kubectl)
 author: Craig Vaccaro
 date: 2026-05-05
 tags: [Kubernetes, kubectl, troubleshooting, debugging, beginner]
 ---
--->
 ![Spectro Cloud logo with docs inline](logo_landscape_for_white.png)
 # Kubernetes Command-Line Interface (kubectl)
 `kubectl` is the Command-Line Interface (CLI) that communicates with the Kubernetes Application Programming Interface  server to perform actions. You can use `kubectl` to deploy, manage, and troubleshoot Kubernetes resources. For more information about installing and configuring `kubectl`, see [Install Tools](https://kubernetes.io/docs/tasks/tools/#kubectl) in the official Kubernetes documentation.
