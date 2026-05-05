@@ -1,6 +1,6 @@
 # Craig Vaccaro Technical Writing Assignment Notes
 
-- Hosted my assignment page using GitHub Pages for ease of access: [Kubernetes Command-Line Interface (kubectl)](https://ctvaccarox7.github.io/Craig-Vaccaro-SpectroCloud-Assignment/assignment.html)
+- Hosted my assignment page using GitHub Pages for ease of access: [Kubernetes Command-Line Interface (kubectl)](assignment.html)
 - Installed and configured GitHub Desktop, Docker, Kubernetes, kubectl, kind, and minikube.
 - Deployed several clusters and ran all kubectl commands against my test environment to verify syntax and generate real output samples.
 - Added some basic YAML metadata in a comment header at the top of the page. This could easily be reformatted to use different syntax, keys, or values.
