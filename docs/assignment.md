@@ -6,7 +6,7 @@ tags: [Kubernetes, kubectl, troubleshooting, debugging, beginner]
 ---
 ![Spectro Cloud logo with docs inline](logo_landscape_for_white.png)
 # Kubernetes Command-Line Interface (kubectl)
-`kubectl` is the Command-Line Interface (CLI) that communicates with the Kubernetes Application Programming Interface  server to perform actions. You can use `kubectl` to deploy, manage, and troubleshoot Kubernetes resources. For more information about installing and configuring `kubectl`, see [Install Tools](https://kubernetes.io/docs/tasks/tools/#kubectl) in the official Kubernetes documentation.
+`kubectl` is the Command-Line Interface (CLI) that communicates with the Kubernetes Application Programming Interface server to perform actions. You can use `kubectl` to deploy, manage, and troubleshoot Kubernetes resources. For more information about installing and configuring `kubectl`, see [Install Tools](https://kubernetes.io/docs/tasks/tools/#kubectl) in the official Kubernetes documentation. After you install `kubectl`, you issue commands from your preferred terminal application, such as Command Prompt or PowerShell on Windows, or Bash on Unix-based systems.
 ## kubectl Debugging Commands
 Use the following `kubectl` commands to diagnose problems with your containers, pods, and other Kubernetes resources. This section provides basic syntax and output examples for common debugging use cases. For more information about `kubectl` commands, including full syntax and capabilities, see [kubectl reference](https://kubernetes.io/docs/reference/kubectl/generated/) in the official Kubernetes documentation.
 ### `kubectl get pods`
