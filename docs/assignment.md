@@ -9,7 +9,7 @@ tags: [Kubernetes, kubectl, troubleshooting, debugging, beginner]
 `kubectl` is the Command-Line Interface (CLI) that communicates with the Kubernetes Application Programming Interface server to perform actions. You can use `kubectl` to deploy, manage, and troubleshoot Kubernetes resources. For more information about installing and configuring `kubectl`, see [Install Tools](https://kubernetes.io/docs/tasks/tools/#kubectl) in the official Kubernetes documentation. After you install `kubectl`, you issue commands from your preferred terminal application, such as Command Prompt or PowerShell on Windows, or Bash on Unix-based systems.
 ## kubectl Debugging Commands
 Use the following `kubectl` commands to diagnose problems with your containers, pods, and other Kubernetes resources. This section provides basic syntax and output examples for common debugging use cases. For more information about `kubectl` commands, including full syntax and capabilities, see [kubectl reference](https://kubernetes.io/docs/reference/kubectl/generated/) in the official Kubernetes documentation.
-### `kubectl get pods`
+### kubectl get pods
 Lists the status of all pods in a specified namespace. 
 #### Syntax
 ```bat
@@ -26,7 +26,7 @@ hello-minikube-58f7c595dd-6stjw   1/1     Running            1 (15m ago)   23h
 node-debugger-minikube-8sdsp      0/1     ImagePullBackOff   0             23h
 node-debugger-minikube-nzghh      0/1     Error              0             23h
 ```
-### `kubectl logs`
+### kubectl logs
 Retrieves troubleshooting logs for a specified pod.
 #### Syntax
 ```bat
@@ -46,7 +46,7 @@ W0504 20:45:59.384913       1 logging.go:55] [core] [Channel #2 SubChannel #4]gr
 W0504 20:45:59.384920       1 logging.go:55] [core] [Channel #1 SubChannel #3]grpc: addrConn.createTransport failed to connect to {Addr: "127.0.0.1:2379", ServerName: "127.0.0.1:2379", BalancerAttributes: {"<%!p(pickfirstleaf.managedByPickfirstKeyType={})>": "<%!p(bool=true)>" }}. Err: connection error: desc = "transport: authentication handshake failed: context canceled"
 I0504 20:45:59.388522       1 shared_informer.go:370] "Waiting for caches to sync"
 ```
-### `kubectl debug`
+### kubectl debug
 Performs various debugging tasks on specified resources.
 #### Syntax
 ```bat
@@ -67,7 +67,7 @@ All commands and output from this session will be recorded in container logs, in
 If you don't see a command prompt, try pressing enter.
 / #
 ```
-### `kubectl exec`
+### kubectl exec
 Directly issue commands to services within a specified container.
 #### Syntax
 ```bat
